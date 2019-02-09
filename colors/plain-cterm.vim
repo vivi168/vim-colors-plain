@@ -192,7 +192,7 @@ hi! link helpHyperTextJump  String
 call s:h("StatusLine", {
       \"cterm": "bold,underline",
       \"bg": s:bg,
-      \"fg": s:dark_black
+      \"fg": s:norm
       \})
 call s:h("StatusLineNC", {
       \"cterm": "bold,underline",
