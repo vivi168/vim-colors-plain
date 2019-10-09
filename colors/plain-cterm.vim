@@ -289,6 +289,9 @@ hi link ALEErrorSign ErrorMsg
 hi link ALEInfo InfoMsg
 hi link ALEInfoSign InfoMsg
 
+hi link sqlStatement Statement
+hi link sqlKeyword Keyword
+
 " __Search__ (make sure it comes after everything else)
 call s:h("Search",        {"bg": s:selection, "fg": s:selection_fg})
 hi! link IncSearch Search
