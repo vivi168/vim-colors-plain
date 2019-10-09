@@ -302,3 +302,13 @@ hi link markdownHeadingDelimiter Constant
 
 hi link yamlBlockMappingKey Statement
 hi link pythonOperator Statement
+
+hi link ALEWarning WarningMsg
+hi link ALEWarningSign WarningMsg
+hi link ALEError ErrorMsg
+hi link ALEErrorSign ErrorMsg
+hi link ALEInfo InfoMsg
+hi link ALEInfoSign InfoMsg
+
+hi link sqlStatement Statement
+hi link sqlKeyword Keyword
