@@ -312,3 +312,6 @@ hi link ALEInfoSign InfoMsg
 
 hi link sqlStatement Statement
 hi link sqlKeyword Keyword
+
+hi! link PmenuSel Constant
+hi! link TabLineSel Constant
