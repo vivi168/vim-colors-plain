@@ -21,7 +21,7 @@ endif
 let g:colors_name='plain'
 
 let s:black           = { "gui": "#222222", "cterm": "0"   }
-let s:medium_gray     = { "gui": "#767676", "cterm": "243" }
+let s:medium_gray     = { "gui": "#626262", "cterm": "241" }
 let s:white           = { "gui": "#F1F1F1", "cterm": "15"  }
 let s:light_black     = { "gui": "#424242", "cterm": "8"   }
 let s:lighter_black   = { "gui": "#545454", "cterm": "240" }
@@ -56,8 +56,8 @@ if &background == "dark"
   let s:yellow           = s:light_yellow
   let s:visual           = s:lighter_black
   let s:cursor_line      = s:subtle_black
-  let s:constant         = s:light_blue
-  let s:comment          = s:light_gray
+  let s:constant         = s:light_gray
+  let s:comment          = s:medium_gray
   let s:selection        = s:dark_yellow
   let s:selection_fg     = s:black
   let s:ok               = s:light_green
