@@ -207,9 +207,9 @@ call s:h("DiffAdd",       {"fg": s:green})
 " __DiffDelete__
 call s:h("DiffDelete",    {"fg": s:red})
 " __DiffChange__
-call s:h("DiffChange",    {"fg": s:yellow})
+call s:h("DiffChange",    {"fg": s:cyan})
 " __DiffText__
-call s:h("DiffText",      {"fg": s:constant})
+call s:h("DiffText",      {"fg": s:yellow})
 
 if has("gui_running")
   call s:h("SpellBad",    {"gui": "underline", "sp": s:red})
