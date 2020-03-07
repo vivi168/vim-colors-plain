@@ -243,8 +243,9 @@ hi! link PmenuSbar        Pmenu
 hi! link PmenuThumb       Pmenu
 " __PmenuSel__
 call s:h("PmenuSel",      {"fg": s:norm, "bg": s:cursor_line, "gui": "bold"})
+hi! link PmenuSel         Constant
 
-hi! link TabLine          Normal
+hi! link TabLine          Constant
 hi! link TabLineSel       Keyword
 hi! link TabLineFill      Normal
 
@@ -312,6 +313,3 @@ hi link ALEInfoSign InfoMsg
 
 hi link sqlStatement Statement
 hi link sqlKeyword Keyword
-
-hi! link PmenuSel Constant
-hi! link TabLineSel Constant
